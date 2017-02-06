@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:background="#999"
+        android:padding="5dp"
+        android:text="我是自定义dialog标题"
+        android:textSize="18sp"/>
+    
+    <ListView android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/lv_view_dialog"
+        android:divider="#999"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/bg_selector"
+        ></ListView>
+
+</LinearLayout>
